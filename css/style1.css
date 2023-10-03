@@ -1,0 +1,405 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+  /* ======= FIRST SECTION ============================================ */
+.section1 {
+  width: 100%;
+  height: 400px;
+  background-image: url(../images/Vector.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+}
+      /*=== Navigation Bar ===*/
+.section1a {
+  width: 100%;
+  height: 28%;
+  padding: 30px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+#taldg-logo {
+  width: 100px;
+  height: 35px;
+}
+
+.nav-ul {
+  list-style: none;
+}
+
+.nav-links {        /* anchor tags classes */
+  text-decoration: none;
+  color: black;
+  transition: 0.6s ease-out;
+}
+.nav-links:hover {
+  text-decoration: underline;
+}
+
+.nav-ul .nav-list {
+  display: inline-block;
+  padding: 0 30px;
+}
+
+#contact-btn {
+  background: transparent;
+  padding: 5px 7.5px;
+  border: 1.5px solid #224F34;
+  border-radius: 5px;
+}
+
+      /*=== FIRST SECTION's CONTENT ===*/
+.section1b {
+  width: 100%;
+  height: 72%;
+  /* background: lavender; */
+  text-align: center;
+  margin: 0 auto;  /* code not necessary because width is 100% so it can't be centered to the middle since its width takes all the width of the page*/
+}
+
+.web {
+  color: #224F34;
+  padding-top: 18px;
+  font-size: 40px;
+  font-weight: bold;
+}
+#web-dev {
+  color: #267D49;
+  font-size: 12px;
+}
+
+#explore-btn {
+  color: white;
+  background: black;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 15px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2),
+   -1px -1px 2px rgba(0, 0, 0, 0.4);
+   font-size: 18px;
+}
+
+
+  /* ======= SECOND SECTION ============================================ */
+.section2 {
+  width: 75%;
+  height: 550px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url(../images/Web-Designing-Course-Syllabus.jpg);
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
+
+/* ======= THIRD SECTION ============================================== */
+.section3 {
+  width: 75%;
+  height: 100px;
+  margin: 0 auto;
+  margin-top: 50px;
+  font-size: 18PX;
+}
+
+
+/* ======= FOURTH SECTION ============================================== */
+.section4 {
+  width: 75%;
+  height: 360px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.section4a {
+  width: 40%;
+  height: 100%;
+  background: #224F34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 32.5px;
+  color: white;
+  font-weight: bold;
+}
+
+.section4b {
+  width: 40%;
+  height: 100%;
+  background: #224F34;
+  border-radius: 10px;
+  text-align: center;
+  padding: 20px 32.5px;
+  color: white;
+  font-weight: bold;
+}
+
+#cohort-text1 {
+  font-size: 30px;
+  margin-bottom: 17px;
+}
+#cohort-text2 {
+  font-size: 40px;
+}
+
+.section4-images {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 17px;
+}
+.image4 {
+  /* width: 40%; */
+  height: 150px;
+  /* background: green; */
+}
+.main-image4 {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+
+/* ======= FIFTH SECTION ============================================== */
+.section5 {
+  width: 75%;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 30px 43px;
+  border: 3px solid black;
+  border-radius: 15px;
+}
+
+#section5-text1 {
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+#section5-text2 {
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.section5-ul {
+  margin-left: 30px;
+  margin-bottom: 20px;
+}
+.section5-list {
+  font-weight: 400px;
+}
+
+.download-curriculum-link {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#download-image-icon {
+  margin-left: 5px;
+  height: 20px;
+}
+
+
+/* ======= SIXTH SECTION ============================================== */
+.section6 {
+  width: 75%;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: flex;
+}
+      /* == SECTION 6A ==*/
+.section6a {
+  width: 50%;
+  height: 100%;
+  border: 3px solid black;
+  border-radius: 10px;
+  padding: 100px 110px;
+}
+#section6-text1 {
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+.section6-ul {
+  margin-left: 30px;
+}
+.section6-list {
+  font-weight: 400px;
+}
+
+      /* == SECTION 6B ==*/
+.section6b {
+  width: 50%;
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.six1 {
+  width: 100%;
+  height: 10%;
+  font-weight: 500;
+  font-size: 24px;
+}
+.six2 {
+  width: 100%;
+  height: 40%;
+  background-image: url(../images/imgg1.png);
+  border-radius: 10px;
+}
+.six3 {
+  width: 100%;
+  height: 40%;
+  background-image: url(../images/imgg2.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+
+/* ======= SEVENTH SECTION ============================================== */
+.section7 {
+  width: 75%;
+  height: 370px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-image: url(../images/Group41.png);
+  background-size: cover;
+}
+
+/* FOOTER */
+
+.row-footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+  padding-top: 20px;
+}
+
+.footer {
+   margin-top: 180px;
+   background: #224F34;
+   font-size: 12px;
+   /* padding: 50px 5% 5px; */
+   height: 30vh;
+   padding-top: 30px;
+   padding: 0 100px;
+}
+
+.footer-col img {
+   width: 120px;
+   height: 40px;
+   /* margin-bottom: 20px; */
+}
+
+.footer-col h4,a {
+   color: #fff;
+   display: block;
+   text-decoration: none;
+   /* color: #777; */
+   font-size: 18px;
+   /* font-weight: 900; */
+   /* margin-bottom: 10px; */
+   text-align: left;
+}
+
+.footer-col a:hover{
+   color: #C2EFD4;
+}
+
+.footer-col h4{
+   font-weight: 700;
+
+}
+
+.footer-col {
+   line-height: 40px;
+} 
+
+/* .footer-col .row {
+   align-items: flex-start;
+   padding: 10px 0;
+} */
+
+.email-signup {
+   display: flex;
+}
+
+.email-signup input {
+   background: transparent;
+   padding-left: 10px;
+   color: white;
+   width: 250px;
+   height: 40px;
+   border: 2px solid #C2EFD4;
+}
+
+
+.email-signup button {
+   background: #C2EFD4;
+   /* border: 2px solid #C2EFD4; */
+   /* outline: none; */
+   color: #224F34;
+   font-size: 13px;
+   cursor: pointer;
+   padding: 10px 20px;
+   /* margin-right: 10px; */
+}
+
+.icon{
+   display: flex;
+}
+
+.fab {
+   color: #C2EFD4;
+   font-size: 30px;
+   padding-left: 10px;
+}
+
+.fab:hover{
+   color: white;
+}
+
+.footer-center{
+   background-color: black;
+   padding: 20px 0;
+}
+
+.footer-center:hover{
+   background-color: #C2EFD4;
+}
+
+.footer-center p:hover{
+   color: #224F34;
+}
+
+.footer-center p{
+   text-align: center;
+   color: white;
+   font-size: 18px;
+}
+
+/* .fa-bars  {
+   width: 28px;
+   margin-left: 20px;
+   display: none;
+} */
